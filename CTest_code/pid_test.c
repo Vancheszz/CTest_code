@@ -25,6 +25,7 @@ void testing_pid(void){
 void pipe_fork(void){
     int fd[2];
     pid_t pid;
+    //hello 
     char msg[] = "hello from parent\n";
     char buff[100];
     if(pipe(fd) == -1){
