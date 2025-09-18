@@ -6,7 +6,7 @@
 #include "pid_test.h"
 int main(int argc, const char * argv[]) {
     //test pid
-    testing_pid();
-    
+    //testing_pid();
+    pipe_fork();
     return EXIT_SUCCESS;
 }
