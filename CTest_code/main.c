@@ -1,15 +1,12 @@
-//
-//  main.c
-//  CTest_code
-//
-//  Created by Shtrikh on 17.09.2025.
-//
-
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <stdint.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include "pid_test.h"
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    //test pid
+    testing_pid();
+    
     return EXIT_SUCCESS;
 }
