@@ -11,4 +11,5 @@
 #include <string.h>
 
 void exec_test_1(const char *path);
+void multiple_pids(int pnum);
 #endif /* exec_files_h */
